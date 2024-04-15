@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Contenido al Borde de la Pagina*/
+body{
+    margin: 0;
+}
+
+/*Encabezado*/
+header{
+    padding: 10px 10px 70px 10px;
+    background-color: rgb(60, 152, 157);
+}
+
+/*Texto Titulo*/
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+
+/*Inputs del Encabezado*/
+header input{
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+
+/*Campo de Texto del Encabezado*/
+.campo{
+    width: 76%;
+    border: none;
+    float: left;
+    margin-left: 2%;
+}
+
+/*Boton del Encabezado*/
+.boton{
+    width: 20%;
+    float: right;
+    margin-right: 2%;
+    background: #d9d9d9;
+    color: #555;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*Animacion del Boton*/
+.boton:hover{
+    background-color: #bbb;
+}
+
+/*Lista*/
+.lista{
+    margin: 0;
+    padding: 0;
+}
+
+/*Texto de la Lista*/
+.lista, input[type="text"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Tareas de la Lista*/
+.lista input{
+    padding-left: 20px;
+    width: 80%;
+    height: 40px;
+    float: left;
+    border: none;
+}
+
+/*Botones de la lista*/
+.lista span{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 10%;
+    height: 40px;
+    transition: 0.3s;
+    float: right;
+    text-align: center;
+    line-height: 200%;
+}
+
+/*Animacion del Boton Editar*/
+.editar:hover{
+    background-color: rgb(60, 152, 157);
+    color: white;
+}
+
+/*Animacion del Boton Borrar*/
+.borrar:hover{
+    background-color: red;
+    color: white;
+}
+
+/*Animacion del Boton Guardar*/
+.guardar:hover{
+    background-color: rgb(60, 152, 157);
+    color: white;
+}
+
+/*Animacion en Objetos de la Lista*/
+.lista input:hover{
+    background: #ddd;
+}
+
+/*Tarea Terminada*/
+.terminada{
+    background-color: #888;
+    color: #fff;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+/*Animacion en Tarea Terminada*/
+.lista input:hover.terminada{
+    background-color: #484848;
+}
+
+.lectura{
+    cursor: pointer;
+}
+
+input .escritura{
+    color: red;
+    background-color: rgb(60, 152, 157);
+}
